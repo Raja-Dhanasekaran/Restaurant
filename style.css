@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    text-align: center;
+    background-color: yellow;
+}
+
+.header-name {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.header-home,
+.header-rec,
+.header-branch {
+    display: inline-block;
+}
+
+.dish-one__pic,
+.dish-two__pic,
+.dish-three__pic {
+
+    width: 300px;
+    height: 200px;
+
+}
+
+.dish-one,
+.dish-two,
+.dish-three {
+    display: inline-block
+}
+
+.dish-one__text,
+.dish-two__text,
+.dish-three__text {
+    text-align: center;
+}
+
+.dish-one__name,
+.dish-two__name,
+.dish-three__name {
+    text-align: center;
+}
+
+.dish-one__button,
+.dish-two__button,
+.dish-three__button {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dish-one__button:hover {
+    background-color: black;
+    color: pink;
+}
+
+.dish-two__button:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.dish-three__button:hover {
+    background-color: black;
+    color: blueviolet;
+}
+
+.menu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dish-one,
+.dish-two,
+.dish-three {
+    border: solid black 2px;
+}
+
+.contact {
+    text-align: center;
+
+
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue
+}
+
+.contact-name {
+    text-align: right;
+    transform: translate(-15%, -10%);
+}
+
+.contact-form {
+
+    margin-top: 10px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    top: 10%;
+    left: 90%;
+    transform: translate(-90%, -10%);
+
+}
+
+
+.contact-form__input,
+.contact-form__text,
+.contact-form__submit {
+    margin-top: 10px;
+}
+
+.contact-form__input {
+
+    border: none;
+    border-bottom: solid chartreuse 3px;
+}
+
+.contact-form__text {
+    padding: 10px;
+    border: solid chartreuse 3px;
+}
+
+.contact-form__submit {
+    background-color: dimgrey;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.contact-form__submit:hover {
+    background-color: #BA3375;
+}
+
+.about {
+    display: inline-block;
+    background-color: black;
+    color: azure;
+    padding-left: 20px;
+    transform: translate(0%, -110%);
+
+
+}
+
+.location {
+    width: 50px;
+    height: 50px;
+}
